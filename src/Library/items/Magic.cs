@@ -5,6 +5,8 @@ namespace RoleplayGame.Items
     /// </summary>
     public class Magic : IAttackItem, IDefenseItem
     {
+        public string Name {get;}
+        public string Description {get;}
         /// <summary>
         /// El poder de ataque
         /// </summary>
