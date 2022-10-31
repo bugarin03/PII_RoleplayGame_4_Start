@@ -3,6 +3,8 @@ namespace RoleplayGame.Items
 
     public class MagicStick : IAttackItem, IMagic 
     {
+        public string Name {get;}
+        public string Description {get;}
         /// <summary>
         /// El poder de defensa.
         /// </summary>
@@ -26,6 +28,12 @@ namespace RoleplayGame.Items
         public override string ToString()
         {
             return "MagicStick";
+        }
+
+        public MagicStick()
+        {
+            this.Name = "Palo";
+            this.Description = "Simplemente un palo de apariencia extraña";
         }
     }
 }
