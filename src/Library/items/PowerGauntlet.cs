@@ -4,6 +4,8 @@ namespace RoleplayGame.Items
 {
     public class PowerGauntlet : IAttackItem, IDefenseItem
     {
+        public string Name {get;}
+        public string Description {get;}
         public int AttackPower { get; private set; }
         public int DefensePower { get; private set; }
         public List<Gem> GemsList { get; set; }
