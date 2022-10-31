@@ -1,7 +1,7 @@
 namespace RoleplayGame.Items
 {
 
-    public class MagicStick : IAttackItem, IMagic 
+    public class MagicStick : IMagic 
     {
         public string Name {get;}
         public string Description {get;}
@@ -9,6 +9,7 @@ namespace RoleplayGame.Items
         /// El poder de defensa.
         /// </summary>
         /// <value></value>
+
         public int AttackPower
         {
             get
