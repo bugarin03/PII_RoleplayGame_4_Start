@@ -27,9 +27,9 @@ namespace RoleplayGame.Characters
             {
                 return this.health;
             }
-            protected set
+            set
             {
-                this.health = value < 0 ? 0 : value;
+                this.health = value;
             }
         }
 
