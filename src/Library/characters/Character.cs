@@ -15,6 +15,7 @@ namespace RoleplayGame.Characters
         }
 
         public string Name { get; set; }
+        public int MaxHealth { get; set; }
 
         /// <summary>
         /// Nivel del vida del personaje.
