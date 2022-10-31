@@ -6,5 +6,6 @@ namespace RoleplayGame.Items
     public interface IAttackItem: IItem
     {
         int AttackPower{ get; }
+
     }
 }

@@ -5,6 +5,8 @@ namespace RoleplayGame.Items
     /// </summary>
     public class Robes : IDefenseItem
     {
+        public string Name {get;}
+        public string Description {get;}
         /// <summary>
         /// El poder de defensa.
         /// </summary>
