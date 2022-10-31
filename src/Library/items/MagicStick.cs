@@ -1,7 +1,7 @@
 namespace RoleplayGame.Items
 {
 
-    public class MagicStick : IMagic 
+    public class MagicStick : IMagicItem 
     {
 
         public string Name {get;}
