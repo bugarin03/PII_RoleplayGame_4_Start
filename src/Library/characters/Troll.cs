@@ -8,7 +8,7 @@ namespace RoleplayGame.Characters
         {
             this.Health = 120;
             this.AddItem(new Stick());
-            this.AddItem(new Shield());
+            this.AddItem(new TrollCuirass());
         }
     }
 }
