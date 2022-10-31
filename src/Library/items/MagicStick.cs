@@ -28,7 +28,7 @@ namespace RoleplayGame.Items
 
         public override string ToString()
         {
-            return "MagicStick";
+            return "Magic Stick";
         }
 
         public MagicStick()
