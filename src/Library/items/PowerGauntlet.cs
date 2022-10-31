@@ -15,6 +15,8 @@ namespace RoleplayGame.Items
             this.AttackPower = 0;
             this.DefensePower = 0;
             this.GemsList = new List<Gem>();
+            this.Name = "Guantelete de los mil poderes";
+            this.Description = "Arma digna de un dios";
         }
 
         public void AddGem(Gem gem)
