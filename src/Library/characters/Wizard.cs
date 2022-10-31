@@ -13,7 +13,8 @@ namespace RoleplayGame.Characters
         {
             this.Health = 80;
             this.AddItem(new Magic());
-            
+            this.MaxHealth = 80;
+
         }
     }
 }
