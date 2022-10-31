@@ -9,7 +9,7 @@ namespace RoleplayGame.Characters
             this.Health = 180;
             this.MaxHealth = 180;
             this.AddItem(new Stick());
-            this.AddItem(new Shield());
+            this.AddItem(new TrollCuirass());
         }
     }
 }

@@ -1,15 +1,15 @@
 namespace RoleplayGame.Items
 {
 
-    public class MagicStick : IMagic 
+    public class MagicStick : IMagicItem 
     {
+
         public string Name {get;}
         public string Description {get;}
         /// <summary>
         /// El poder de defensa.
         /// </summary>
         /// <value></value>
-
         public int AttackPower
         {
             get
@@ -28,7 +28,7 @@ namespace RoleplayGame.Items
 
         public override string ToString()
         {
-            return "MagicStick";
+            return "Magic Stick";
         }
 
         public MagicStick()

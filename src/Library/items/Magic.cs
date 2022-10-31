@@ -3,7 +3,7 @@ namespace RoleplayGame.Items
     /// <summary>
     /// Magia. Permite atacar y defender.
     /// </summary>
-    public class Magic : IAttackItem, IDefenseItem
+    public class Magic : IMagicItem
     {
         public string Name {get;}
         public string Description {get;}
