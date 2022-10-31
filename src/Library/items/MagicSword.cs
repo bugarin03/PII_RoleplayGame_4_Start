@@ -11,5 +11,11 @@ namespace RoleplayGame.Items
                 return 20;
             }
         }
+
+        public MagicSword()
+        {
+            this.Name = "Espada Maldita";
+            this.Description = "Espada de míticas batallas y origen desconocido";
+        }
     }
 }
